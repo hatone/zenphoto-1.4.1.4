@@ -1,0 +1,1 @@
+﻿tinyMCE.addI18n('sk.advhr_dlg',{size:"Výška",noshade:"Bez tieňa",width:"Šírka"});
