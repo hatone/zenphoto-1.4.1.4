@@ -28,7 +28,7 @@ SERVER path. For these cases you will need to implement the path overrides below
 $conf['db_software'] = 'MySQL';			// someday we may support other databases
 /** for historical reasons these fields reference mysql even though the database **
  ** might be a different software                                                **/
-$conf['mysql_user'] = 'DUMMY_PROJECT_NAME'
+$conf['mysql_user'] = 'DUMMY_PROJECT_NAME';
 $conf['mysql_pass'] = 'DUMMY_DB_PASSWORD';           // Supply your Database password.
 $conf['mysql_host'] = 'DUMMY_DB_HOST';  // Supply the name of your Database server.
 $conf['mysql_database'] = 'DUMMY_PROJECT_NAME';       // Supply the name of Zenphoto's database 
