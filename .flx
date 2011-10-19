@@ -1,0 +1,17 @@
+#########################################
+#
+#  fluxflex configuration for Zenphoto
+#
+#########################################
+
+## Permission
+[permission]
+public_html 755
+public_html/albums/ 777
+public_html/cache/ 777
+
+## Replace
+[replace]
+public_html/zp-core/zp-config.php.source   DUMMY_DB_HOST         DB_HOST
+public_html/zp-core/zp-config.php.source   DUMMY_PROJECT_NAME    PROJECT_NAME
+public_html/zp-core/zp-config.php.source   DUMMY_DB_PASSWORD     DB_PASSWORD
